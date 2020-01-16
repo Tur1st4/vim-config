@@ -16,6 +16,8 @@ Baixe as dependências na sua distro: `vim git`
 
 Depois, execute o arquivo `install.sh` com o comando: `./install.sh` ou `sh install.sh`
 
+Por fim, mude a fonte do seu Terminal para alguma da família do Powerline.
+
 E se tudo for como o planejado, estará pronto o seu Vim!
 
 *Obs: Caso não instale os Plugins, abra o Vim, e digite na tela de comandos: `:PluginInstall`*
