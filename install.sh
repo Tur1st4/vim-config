@@ -9,6 +9,10 @@
 cp -r $(pwd)/.vim/ ~/
 cp -r $(pwd)/.vimrc ~/
 
+# Baixa o Vundle na pasta do Vim, necessário para a instalação dos Plugins
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 # Instala os Plugins necessários
 
 vim :PluginInstall
