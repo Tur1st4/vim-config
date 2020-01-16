@@ -8,10 +8,16 @@ Se caso queira instalar essa config, use:
 
 * Linux
 
+Clone esse repositório:
+
+`https://github.com/Tur1st4/vim-config.git`
+
 Baixe as dependências na sua distro:
+
 `vim git`
 
 Depois, execute o arquivo `install.sh`:
+
 `./install.sh` ou `sh install.sh`
 
 E se tudo for como o planejado, estará pronto o seu Vim!
