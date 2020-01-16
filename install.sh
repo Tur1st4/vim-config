@@ -15,7 +15,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Instala os Plugins necessários
 
-vim :PluginInstall
+vim +PluginInstall
 
 # Baixa as fontes do Poweline e adicionais
 
