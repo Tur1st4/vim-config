@@ -28,3 +28,7 @@ cd fonts/fonts && cp *.ttf *.otf $HOME/.local/share/fonts/
 # "Carrega" as novas fontes instaladas
 
 fc-cache -fv
+
+# Adiciona stty no bashrc
+
+echo "stty -ixon" >> ~/.bashrc
