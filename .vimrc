@@ -28,7 +28,7 @@ command Author echo "Author: Tur1st4 [ https://github.com/Tur1st4 ]"
 command License echo "License: MIT License"
 
 " Configuração do .vimrc
-" Para funcionar o Ctrl+S (Salvar), adicione: tty -ixon no seu ~/.bashrc
+" Para funcionar o Ctrl+S (Salvar), adicione: stty -ixon no seu ~/.bashrc
 
 set nu!
 set mouse=a
