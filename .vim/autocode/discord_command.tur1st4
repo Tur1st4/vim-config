@@ -1,0 +1,32 @@
+const config = require(`../json/config.json`);
+const cor = require(`../json/cores.json`);
+const nome = "ping"
+
+module.exports = {
+    nome: 'ping',
+    ajuda: 'Envio o ping da API.',
+    uso: '',
+    exemplo: '',
+    espera: 5,
+    servidor: false,
+    argumentos: false,
+
+    run(cliente) {
+        bot = cliente
+        log = cliente.channels.find(canal => canal.id === config.canal_log);
+    },
+
+    execute(mensagem) {
+        async function pingFuncao() {
+	
+	}
+        pingFuncao()
+            .then(() => {
+                log.send(`Comando ${nome} executado com sucesso!`)
+            })
+            .catch(erro => {
+                log.send(`Ocorreu um erro no comando ${nome}: ${config.cmd}${erro}${config.cmd}`)
+                console.error(`${erro}\n`)
+            });
+    }
+}
